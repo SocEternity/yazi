@@ -365,3 +365,13 @@ keymap = [
 	# Filtering
 	{ on = "f", run = "filter", desc = "Apply a filter for the help items" },
 ]
+
+# [[manager.prepend_keymap]]
+# on   = "T"
+# run  = "plugin toggle-pane min-preview"
+# desc = "Show or hide the preview pane"
+
+[[manager.prepend_keymap]]
+on   = "T"
+run  = "plugin toggle-pane max-preview"
+desc = "Maximize or restore the preview pane"

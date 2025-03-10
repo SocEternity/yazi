@@ -17,10 +17,11 @@ mouse_events   = [ "click", "scroll" ]
 title_format   = "Yazi: {cwd}"
 
 [preview]
+# Change them to your desired values
 wrap            = "no"
 tab_size        = 2
-max_width       = 600
-max_height      = 900
+max_width       = 4000
+max_height      = 4000
 cache_dir       = ""
 image_delay     = 30
 image_filter    = "triangle"

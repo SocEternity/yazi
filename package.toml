@@ -1,0 +1,12 @@
+[[plugin.deps]]
+use = "yazi-rs/plugins:max-preview"
+rev = "2bf70d8"
+hash = "a8025f2bb311e869069364fba01abffc"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:toggle-pane"
+rev = "2bf70d8"
+hash = "812fd49667ab6823250f0411f8cf793a"
+
+[flavor]
+deps = []
