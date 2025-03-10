@@ -20,11 +20,11 @@ keymap = [
 	{ on = "<Up>",    run = "arrow -1", desc = "Move cursor up" },
 	{ on = "<Down>",  run = "arrow 1",  desc = "Move cursor down" },
 
-  # 滚动半/全页
-	{ on = "<C-u>", run = "arrow -50%",  desc = "Move cursor up half page" },
-	{ on = "<C-d>", run = "arrow 50%",   desc = "Move cursor down half page" },
-	{ on = "<C-b>", run = "arrow -100%", desc = "Move cursor up one page" },
-	{ on = "<C-f>", run = "arrow 100%",  desc = "Move cursor down one page" },
+  # 滚动半/全页 A=Option
+	{ on = "<A-k>", run = "arrow -50%",  desc = "Move cursor up half page" },
+	{ on = "<A-j>", run = "arrow 50%",   desc = "Move cursor down half page" },
+	{ on = "<A-h>", run = "arrow -100%", desc = "Move cursor up one page" },
+	{ on = "<A-l>", run = "arrow 100%",  desc = "Move cursor down one page" },
 
 	{ on = "<S-PageUp>",   run = "arrow -50%",  desc = "Move cursor up half page" },
 	{ on = "<S-PageDown>", run = "arrow 50%",   desc = "Move cursor down half page" },
